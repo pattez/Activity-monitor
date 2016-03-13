@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.event.ActionEvent?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.beans.property.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.Color?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainGuiController">
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="106.0" prefWidth="600.0" text="                                   Activity Monitor" textAlignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Button1" mnemonicParsing="false" onAction="#processButton4" prefHeight="172.0" prefWidth="738.0" text="Exit">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <left>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processButton1" prefHeight="200.0" prefWidth="273.0" text="Add activity">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </left>
+   <right>
+      <HBox prefHeight="236.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processButton3" prefHeight="200.0" prefWidth="286.0" text="Info">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </right>
+   <center>
+      <HBox prefHeight="200.0" prefWidth="241.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processButton2" prefHeight="240.0" prefWidth="243.0" text="Check activities">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

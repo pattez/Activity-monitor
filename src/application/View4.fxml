@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.event.ActionEvent?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.beans.property.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.Color?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InfoController">
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processButton" prefHeight="100.0" prefWidth="640.0" text="Main Menu">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_LEFT" prefHeight="339.0" prefWidth="600.0" text="Lazy, stressed, forgetful, or want to keep things tracked and organised? The activity monitor lets you track and overview several activities in your daily life, track whenever you &quot;Shaved&quot;, &quot;Cooked&quot; or when you were &quot;Sick&quot;.&#10; &#10;Click the &quot;Add Activity&quot; button in the Main Menu to get started!&#10;" wrapText="true">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
